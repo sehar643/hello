@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!-- nav-bar -->
+    <div>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-blue-950">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white ml-28" href="#"><img src="./img/logo.png" alt=""></a>
+         <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> -->
+          <!-- <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div> -->
+            <ul class="navbar-nav px-14 mx-24">
+              <li class="nav-item mx-2">
+                <a class="nav-link active text-white font-bold " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#">Services</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white " href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a class="nav-link dropdown-toggle text-white font-bold" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+               
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                  <li><a class="dropdown-item" href="#">Pricing Plan</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                </ul>
+                <li> <button type="button" class="btn text-white font-bold rounded-full px-8 pt-2 pb-2 ml-6 border-purple-700">Get&nbsp;Started</button></li>
+              </li>
+            </ul>
+          </div>
+    </div>
+      </nav>
+      <!-- section -->
+      <div class="container-fluid bg-gradient-to-r from-blue-900 via-purple-700 to-purple-950">
+        <div class="row ">
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" class="col">
+            <p class="text-white pt-36 text-5xl font-bold ml-10 leading-snug font-serif">Protect your website <br> with the power of cybersecurity.</p>
+            <p class="text-white ml-10 leading-7 pt-3 font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button type="button" class="btn hover:bg-gradient-to-r from-purple-900 via-blue-800 to-purple-900 text-white rounded-full px-8 mt-8 pt-3 pb-3 ml-10 border-purple-700 font-serif">Learn More</button>
+            </div>
+            <div class="col pb-28 pt-10 pr-10">
+                <img src="./img/banner.png" alt="">
+            </div>
+        </div>
+        <div class="row justify-evenly">
+            <div class="col-span-3 h-72 mb-6 w-80 border-2 border-cyan-800 shadow-lg shadow-gray-600 bg-gradient-to-br from-purple-950 via-blue-800 to-purple-950 rounded-3xl">
+                <img class="mt-8 ml-28" src="./img/banner_card1.png" alt="">
+                <p class="font-bold text-slate-400 text-center text-3xl mt-2 font-serif">Cyber Security</p>
+                <p class="text-gray-200 text-center mt-3 leading-7 font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod amet elit.</p>
+            </div>
+            <div class="col-span-3 h-72 mb-6 w-80 border-2 border-cyan-800 shadow-lg shadow-gray-600 bg-gradient-to-br from-purple-950 via-blue-800 to-purple-950 rounded-3xl">
+                <img class="mt-8 ml-24" src="./img/banner_card2.png" alt="">
+                <p class="font-bold text-slate-400 text-center text-3xl mt-2 font-serif">Quick Response</p>
+                <p class="text-gray-200 text-center mt-3 leading-7 font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod amet elit.</p>
+            </div>
+            <div class="col-span-3 h-72 mb-6 w-80 border-2 shadow-lg shadow-gray-600 border-cyan-800 bg-gradient-to-br from-purple-950 via-blue-800 to-purple-950 rounded-3xl">
+                <img class="mt-8 ml-28" src="./img/banner_card3.png" alt="">
+                <p class="font-bold text-slate-400 text-center text-3xl mt-2 font-serif">Data Privacy</p>
+                <p class="text-gray-200 text-center mt-3 leading-7 font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod amet elit.</p>
+            </div>
+        </div>
+      </div>
+
+      <!-- About section -->
+  
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center font-bold text-6xl mt-4 text-purple-950 font-serif" >About Us</h1>
+          <div class="col">
+            <p class="font-semibold text-4xl mt-5 font-serif">Securing your website is easy <br> with cyber safe.</p>
+            <p class="mt-4 font-semibold text-gray-600 font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut laboren do tempor amet elit.</p>
+            <div class="row">
+              <div class="col flex">
+                <p class="text-4xl font-semibold mt-5 font-serif">16+</p>
+                <p class="text-4xl font-semibold mt-5 ml-20 font-serif">Year of experience</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p class="mt-4 ml-36 font-semibold text-gray-600 font-serif">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor off <br> laboren amet elit.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col flex">
+                <p class="text-4xl font-semibold mt-5 font-serif">200+</p>
+                <p class="text-4xl font-semibold mt-5 ml-14 font-serif">Servers protection</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p class="mt-4 ml-36 font-semibold text-gray-600 font-serif">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor off <br> laboren amet elit.</p>
+              </div>
+            </div>
+          </div>
+          <div data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" class="col">
+            <img class="mt-10" src="./img/about (1).png" alt="">
+          </div>
+        </div>
+        <button type="button" class="btn font-serif bg-gradient-to-r from-blue-900 via-purple-800 to-blue-900 text-white rounded-full px-8 mt-7 pt-2 pb-2 ml-10 border-purple-700 text-purple-950 font-semibold">Search</button>
+        <button type="button" class="btn font-serif hover:bg-gradient-to-r from-blue-900 via-purple-800 to-blue-900 hover:text-white rounded-full px-8 mt-7 pt-2 pb-2 ml-10 border-purple-700 text-purple-950 font-semibold">Search</button>
+      </div>
+    
+
+     <!-- section three why choose us -->
+
+    <div class="container-fluid mt-5 pb-5 bg-gradient-to-r from-purple-800 via-purple-950 to-purple-800">
+      <div class="row">
+        <div class="col ml-16">
+          <p class="font-bold text-white text-2xl mt-8 font-serif">Why choose us Trusted</p>
+          <p class="font-bold text-white text-4xl leading-relaxed mt-8 font-serif">Trusted protection for your <br> website begins her</p>
+          <p class="text-gray-200 mt-4 font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut laboren amet elit.</p>
+          <button type="button" class="btn font-serif hover:bg-gradient-to-r from-blue-900 via-purple-800 to-blue-900 rounded-full px-10 mt-7 pt-3 pb-3 border-purple-700 text-white text-1xl font-semibold">Learn More</button>
+          <div data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"><img class="h-80 mt-5" src="./img/choose_main.png" alt=""></div>
+        </div>
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" class="col">
+          <div class="col mt-5 mr-6 bg-gradient-to-r from-blue-900 via-purple-950 to-blue-900 rounded-3xl shadow-2xl">
+          <div class="col flex ">
+          <img class="h-16 ml-16 mt-14" src="./img/choose1.png" alt="">
+          <p class="text-white font-serif font-semibold text-3xl ml-14 mt-5">Network traffic <br> analytics</p>
+          </div>
+          <p class="text-white font-serif ml-48 mt-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor incididunt <br> ut laboren amet elit.</p>
+          <div class="col flex ">
+            <img class="h-16 ml-16 mt-14" src="./img/choose2.png" alt="">
+            <p class="text-white font-serif font-semibold text-3xl ml-12 mt-5">Network traffic <br> analytics</p>
+            </div>
+            <p class="text-white ml-48 mt-4 font-serif">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor incididunt <br> ut laboren amet elit.</p>
+            <div class="col flex ">
+              <img class="h-20 ml-16 mt-14" src="./img/choose3.png" alt="">
+              <p class="text-white font-serif font-semibold text-3xl ml-12 mt-5">Network traffic <br> analytics</p>
+              </div>
+              <p class="text-white font-serif ml-48 mt-4 pb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor incididunt <br> ut laboren amet elit.</p>
+          </div>
+      </div>
+      </div>
+    </div>
+
+          <!-- How we work -->
+    
+      <div class="container">
+        <div class="row">
+          <p class="text-purple-950 text-5xl text-center font-bold mt-3 font-serif">How We Work</p>
+          <div data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" class="col">
+            <img class="mt-16 rounded-3xl ml-20" src="./img/how_we_work.jng.jpg" alt="">
+          </div>
+          <div class="col">
+            <p class="text-4xl font-semibold mt-14 ml-5 font-serif ">Your cyber security on a chip</p>
+            <p class="ml-8 mt-4 leading-normal font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut laboren do tempor amet elit.</p>
+            <div class="col font-serif bg-gradient-to-r from-blue-950 via-purple-800 to-blue-950 text-white border-2 pt-3 pb-3 rounded-3xl mt-4 flex">
+              <p class="font-bold font-serif text-4xl mt-4 ml-3">01</p>
+              <div class="col">
+                <p class="font-semibold font-serif text-3xl ml-10">Company analysis</p>
+                <p class="ml-10 mt-3 font-serif leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+            <div class="col font-serif hover:bg-gradient-to-r from-blue-950 via-purple-800 to-blue-950 hover:text-white border-2 pt-3 pb-3 rounded-3xl mt-4 flex">
+              <p class="font-bold font-serif text-4xl mt-4 ml-3">01</p>
+              <div class="col">
+                <p class="font-semibold font-serif text-3xl ml-10">Specifications Listed</p>
+                <p class="ml-10 mt-3 leading-normal font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+            <div class="col font-serif hover:bg-gradient-to-r from-blue-950 via-purple-800 to-blue-950 hover:text-white border-2 pt-3 pb-3 rounded-3xl mt-4 flex">
+              <p class="font-bold font-serif text-4xl mt-4 ml-3">01</p>
+              <div class="col">
+                <p class="font-semibold font-serif text-3xl ml-10">Set Up Security</p>
+                <p class="ml-10 mt-3 leading-normal font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <!-- Pricing section -->
+      <div class="container font-serif">
+        <p class="text-center font-bold text-5xl mt-5 text-purple-950">Pricing Plan</p>
+        <p class="text-center font-semibold text-4xl mt-3">Security is just a click away</p>
+        <div class="row">
+          <div data-aos="fade-up"
+          data-aos-duration="3000" class="col ml-4 rounded-3xl border-2 mt-4">
+            <div class="flex">
+              <p class="font-semibold text-3xl mt-5 ml-20">39.99$</p>
+            <img class="mt-14 ml-32" src="./img/pricing1.png" alt="">
+            </div>
+            <p class="font-semibold ml-20 mt-2 text-3xl">Basic</p>
+            <div class="form-check mt-4 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Identifying threat
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Cyber risk assessment
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Testing cyber security
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Managing cloud
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Data recovery
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Effective protection
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Server security
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                24/7 support
+              </label>
+            </div>
+            <button type="button" class="btn hover:bg-gradient-to-r from-blue-900 via-purple-800 to-blue-900 rounded-full mt-7 pl-16 pr-16 pt-2 pb-2 ml-24 mb-2 text-xl border-purple-700 text-purple-950 font-semibold">Search</button>
+          </div>
+          <div data-aos="fade-down"
+          data-aos-duration="3000" class="col ml-4 rounded-3xl border-2 mt-4">
+            <div class="flex">
+              <p class="font-semibold text-3xl mt-5 ml-20">49.99$</p>
+            <img class="mt-14 ml-32" src="./img/pricing2.png" alt="">
+            </div>
+            <p class="font-semibold ml-20 mt-2 text-3xl">Intermediate</p>
+            <div class="form-check mt-4 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Identifying threat
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Cyber risk assessment
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Testing cyber security
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Managing cloud
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Data recovery
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Effective protection
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Server security
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                24/7 support
+              </label>
+            </div>
+            <button type="button" class="btn hover:bg-gradient-to-r from-blue-900 via-purple-800 to-blue-900 rounded-full mt-7 pl-16 pr-16 pt-2 pb-2 ml-24 mb-2 text-xl border-purple-700 text-purple-950 font-semibold">Search</button>
+          </div>
+          <div data-aos="fade-up"
+          data-aos-duration="3000" class="col ml-4 rounded-3xl border-2 mt-4">
+            <div class="flex">
+              <p class="font-semibold text-3xl mt-5 ml-20">59.99$</p>
+            <img class="mt-14 ml-32" src="./img/pricing3.png" alt="">
+            </div>
+            <p class="font-semibold ml-20 mt-2 text-3xl">Advanced</p>
+            <div class="form-check mt-4 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Identifying threat
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Cyber risk assessment
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Testing cyber security
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Managing cloud
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Data recovery
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Effective protection
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Server security
+              </label>
+            </div>
+            <div class="form-check mt-3 ml-8 text-xl text-gray-500 font-medium">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                24/7 support
+              </label>
+            </div>
+            <button type="button" class="btn hover:bg-gradient-to-r from-blue-900 via-purple-800 to-blue-900 rounded-full mt-7 pl-16 pr-16 pt-2 pb-2 ml-24 mb-2 text-xl border-purple-700 text-purple-950 font-semibold">Search</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- blog section -->
+
+      <div class="container-fluid font-serif pb-4 mt-5 bg-gradient-to-r from-purple-950 via-purple-800 to-purple-950">
+        <div class="row">
+          <p class="text-center font-bold text-5xl mt-5 text-white">Blog</p>
+        <p class="text-center text-white font-semibold text-4xl mt-3">A better way to do digital.</p>
+        <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" class="col">
+          <div class="card rounded-3xl mt-8 ml-40" style="width: 18rem;">
+            <img src="./img/blog1.jng.jpg" class="card-img-top rounded-3xl" alt="...">
+            <div class="card-body">
+              <div class="flex">
+                <p class="ml-6 font-semibold"><i class="bi bi-person-fill"></i>&emsp; Admin</p>
+                <p class="ml-16 font-semibold"><i class="bi bi-chat-fill"></i>&emsp; 0</p>
+              </div>
+              <p class="font-semibold text-xl mt-8">Encode Mobile Spplication Dource Code With Code</p>
+              <p class="text-gray-500 mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod et aliqua.</p>
+              <button type="button" class="btn font-semibold text-center text-purple-500 ml-16">Learn More</button>
+            </div>
+          </div>
+        </div>
+          <div data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500" class="col">
+            <div class="card rounded-3xl mt-8 ml-14" style="width: 18rem;">
+              <img src="./img/blog2.jng.jpg" class="card-img-top rounded-3xl" alt="...">
+              <div class="card-body">
+                <div class="flex">
+                  <p class="ml-6 font-semibold"><i class="bi bi-person-fill"></i>&emsp; Admin</p>
+                  <p class="ml-16 font-semibold"><i class="bi bi-chat-fill"></i>&emsp; 0</p>
+                </div>
+                <p class="font-semibold text-xl mt-8">Encode Mobile Spplication Dource Code With Code</p>
+                <p class="text-gray-500 mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod et aliqua.</p>
+                <button type="button" class="btn font-semibold text-center text-purple-500 ml-16">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500" class="col">
+            <div class="card rounded-3xl mt-8 mr-36" style="width: 18rem;">
+              <img src="./img/blog3.jng.jpg" class="card-img-top rounded-3xl" alt="...">
+              <div class="card-body">
+                <div class="flex">
+                  <p class="ml-6 font-semibold"><i class="bi bi-person-fill"></i>&emsp; Admin</p>
+                  <p class="ml-16 font-semibold"><i class="bi bi-chat-fill"></i>&emsp; 0</p>
+                </div>
+                <p class="font-semibold text-xl mt-8">Encode Mobile Spplication Dource Code With Code</p>
+                <p class="text-gray-500 mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod et aliqua.</p>
+                <button type="button" class="btn font-semibold text-center text-purple-500 ml-16">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <button type="button" class="btn hover:bg-gradient-to-r from-blue-900 via-purple-800 to-blue-900 pl-14 pr-14 rounded-full text-xl border-purple-700 text-white font-semibold">Search</button>
+        </div>
+      </div>
+
+      <!-- fotter section -->
+
+      <div class="container font-serif">
+        <div class="row">
+          <p class="text-center font-semibold text-2xl mt-4 text-purple-950">Get In Touch</p>
+          <p class="text-center font-bold text-4xl mt-2 text-purple-950">Subscribe our newsletter</p>
+          <p class="mt-4 text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="col flex pb-10">
+            <input type="email" placeholder="Enter Yout Email" class="border-2 border-gray-500 w-[550px] ml-80 h-12 mt-10 rounded-2xl">
+            <button type="button" class="btn border-2 border-gray-500 mt-10 ml-5 pl-7 pr-7 h-12 rounded-2xl text-2xl hover:bg-gradient-to-r from-blue-900 via-purple-800 to-blue-900"><i class="bi bi-send"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- fotter -->
+
+      <div class="container mt-12 font-serif">
+        <div class="row">
+          <div class="col">
+            <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block text-gray-700">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div class="">
+      <a class="text-3xl mr-12 " href="" class="me-4 text-reset">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a class="text-3xl mr-12" href="" class="me-4 text-reset">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a class="text-3xl mr-10" href="" class="me-4 text-reset">
+        <i class="bi bi-google"></i>
+      </a>
+      <a class="text-3xl mr-8" href="" class="me-4 text-reset">
+        <i class="bi bi-instagram"></i>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="mb-4">
+           <div data-aos="flip-left"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000"><img src="./img/logo.png" alt=""></div> 
+          </h6>
+          <p class="text-gray-950">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque facilis est labore, doloribus quo.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold text-gray-700 mb-4">
+            Products
+          </h6>
+          <p>
+            <a class="text-gray-800" href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a class="text-gray-800" href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a class="text-gray-800" href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a class="text-gray-800" href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase font-bold text-gray-700 mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a class="text-gray-700" href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a class="text-gray-700" href="#!" class="text-reset">Services</a>
+          </p>
+          <p>
+            <a class="text-gray-700" href="#!" class="text-reset">Blog</a>
+          </p>
+          <p>
+            <a class="text-gray-700" href="#!" class="text-reset">Contact</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold text-gray-700 mb-4">Contact</h6>
+          <p class="text-lg text-gray-700"><i class="bi bi-house-fill"></i>&emsp;  New York, NY 10012, US</p>
+          <p class="text-lg text-gray-700">
+            <i class="bi bi-envelope-fill"></i>&emsp; 
+            info@example.com
+          </p>
+          <p class="text-lg text-gray-700"><i class="bi bi-telephone-fill"></i>&emsp;  + 01 234 567 88</p>
+          <p class="text-lg text-gray-700"><i class="fas fa-print me-3"></i>&emsp;  + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:cyber safe evonicmedia. all rights reserved.
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+          </div>
+        </div>
+      </div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
